@@ -6,7 +6,7 @@
 
 Sistema completo para gestión de inventario con interfaz web y API REST.
 
-## 🚀 Tecnologías Principales
+## Tecnologías Principales
 
 ### Backend
 - **Laravel 12** 
@@ -19,7 +19,7 @@ Sistema completo para gestión de inventario con interfaz web y API REST.
 - **PHPUnit 11** 
 - **Paratest** 
 
-## 🛠 Instalación y Configuración
+##  Instalación y Configuración
 
 ### Requisitos previos
 - PHP 8.2+
@@ -51,8 +51,11 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 6. correr migraciones
+   
    php artisan migrate --seed
-7. Configurar Sanctum
+8. Configurar Sanctum
+   
    php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
-8. por ultimo correr proyecto con el comando
+10. por ultimo correr proyecto con el comando
+    
    php artisan serve
