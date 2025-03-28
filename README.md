@@ -30,17 +30,17 @@ Sistema completo para gestión de inventario con interfaz web y API REST.
 
 1. **Clonar el repositorio**:
      https://github.com/davy2333/Sistema_de_gestion_de_inventario.git
-2. Instalar dependencias PHP
+2. Instalar dependencias PHP:
      composer install --optimize-autoloader --no-dev
-3.Instalar dependencias JavaScript
+3.Instalar dependencias JavaScript:
     npm install
     npm run build
-4. Configurar el entorno
+4. Configurar el entorno:
    cp .env.example .env
     php artisan key:generate
-5. configurar el archivo env.
+5. configurar el archivo env.:
 
-   como se deberia ver
+   como se deberia ver:
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -48,7 +48,7 @@ DB_DATABASE=sistema_de_gestion_de_inventario
 DB_USERNAME=root
 DB_PASSWORD=
 
-6. correr migraciones
+6. correr migraciones:
    
    php artisan migrate --seed
 8. Configurar Sanctum
